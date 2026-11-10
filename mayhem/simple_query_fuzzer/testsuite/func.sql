@@ -1,0 +1,1 @@
+CREATE FUNCTION f(x int) RETURNS int LANGUAGE sql AS $$ SELECT x * 2 $$;

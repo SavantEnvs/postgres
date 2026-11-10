@@ -1,0 +1,1 @@
+SELECT CASE WHEN a < 0 THEN 'neg' WHEN a = 0 THEN 'zero' ELSE 'pos' END, coalesce(b, 'n') FROM t;

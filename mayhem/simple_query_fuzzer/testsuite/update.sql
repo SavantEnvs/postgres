@@ -1,0 +1,1 @@
+UPDATE t SET b = upper(b) FROM u WHERE t.a = u.a AND u.v IN (SELECT v FROM w);

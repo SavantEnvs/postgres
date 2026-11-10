@@ -1,0 +1,1 @@
+SELECT j -> 'a' ->> 'b', j #> '{x,y}', j @> '{"k":1}'::jsonb FROM t;
