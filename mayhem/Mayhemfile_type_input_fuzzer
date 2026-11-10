@@ -1,0 +1,8 @@
+project: savantenvs/postgres
+target: type_input_fuzzer
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/type_input_fuzzer/testsuite
+cmds:
+  - cmd: /mayhem/type_input_fuzzer
+    libfuzzer: true

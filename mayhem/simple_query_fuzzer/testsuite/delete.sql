@@ -1,0 +1,1 @@
+DELETE FROM t WHERE a = ANY (ARRAY[1,2,3]);

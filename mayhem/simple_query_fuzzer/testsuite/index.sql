@@ -1,0 +1,1 @@
+CREATE UNIQUE INDEX CONCURRENTLY i ON t USING btree (lower(b) text_pattern_ops) WHERE a > 0;

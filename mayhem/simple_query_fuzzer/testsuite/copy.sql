@@ -1,0 +1,1 @@
+COPY t (a, b) FROM STDIN WITH (FORMAT csv, HEADER);

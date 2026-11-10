@@ -1,0 +1,1 @@
+SELECT '1 day'::interval, ARRAY[1,2]::int[], ROW(1,'a'), 1::numeric(5,2), 'x'::varchar(3), E'a\\nb', B'101', U&'d\\0061t';

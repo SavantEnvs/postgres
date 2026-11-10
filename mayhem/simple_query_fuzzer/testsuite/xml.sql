@@ -1,0 +1,1 @@
+SELECT xmlelement(name e, xmlattributes(1 AS a), 'x'), xmlparse(document '<a/>');

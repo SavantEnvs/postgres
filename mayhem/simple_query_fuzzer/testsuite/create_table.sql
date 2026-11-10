@@ -1,0 +1,1 @@
+CREATE TABLE t (a int PRIMARY KEY, b text NOT NULL DEFAULT 'x', c numeric(10,2) CHECK (c > 0));

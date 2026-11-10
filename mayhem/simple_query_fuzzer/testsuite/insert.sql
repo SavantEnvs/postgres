@@ -1,0 +1,1 @@
+INSERT INTO t (a, b) VALUES (1, 'one'), (2, 'two') ON CONFLICT (a) DO UPDATE SET b = EXCLUDED.b RETURNING *;
